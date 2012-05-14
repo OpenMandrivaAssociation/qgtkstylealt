@@ -1,7 +1,7 @@
 Name:		qgtkstylealt
 Summary:	ROSA Alternative GTK+ style for Qt
 Version:	0.1.1
-Release:	%mkrel 1
+Release:	2
 Source0:	qgtkstylealt-%{version}.tar.gz
 Group:		Graphical desktop/KDE
 License:	GPLv3
@@ -32,4 +32,3 @@ ROSA Alternative GTK+ style for Qt
 %install
 
 %makeinstall_std -C build
-
