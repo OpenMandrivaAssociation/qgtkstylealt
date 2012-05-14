@@ -6,7 +6,7 @@ Source0:	qgtkstylealt-%{version}.tar.gz
 Group:		Graphical desktop/KDE
 License:	GPLv3
 Requires:       kdebase4-runtime
-Requires:       libgtk+2.0
+Requires:       gtk+2.0
 BuildRequires:  libgtk+2.0-devel 
 BuildRequires:  kdebase4-devel 
 BuildRequires:  kdebase4-workspace-devel
