@@ -7,7 +7,7 @@ Group:		Graphical desktop/KDE
 License:	GPLv3
 Requires:       kdebase4-runtime
 Requires:       gtk+2.0
-BuildRequires:  libgtk+2.0-devel 
+BuildRequires:  pkgconfig(gtk+-x11-2.0)
 BuildRequires:  kdebase4-devel 
 BuildRequires:  kdebase4-workspace-devel
 
