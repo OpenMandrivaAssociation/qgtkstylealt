@@ -8,6 +8,7 @@ License:	GPLv3
 Requires:       kdebase4-runtime
 Requires:       gtk+2.0
 BuildRequires:  pkgconfig(gtk+-x11-2.0)
+BuildRequires:	kde4-macros
 BuildRequires:  kdebase4-devel 
 BuildRequires:  kdebase4-workspace-devel
 
