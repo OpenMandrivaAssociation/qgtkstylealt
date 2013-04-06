@@ -8,7 +8,7 @@ License:	GPLv3
 
 
 Requires:       kdebase4-runtime qt4-common %{_lib}gtk+2.0_0
-BuildRequires:  qt4-devel gtk+2.0-devel kdebase4-devel kdebase4-workspace-devel
+BuildRequires:  qt4-devel gtk2-devel kdebase4-devel kdebase4-workspace-devel
 
 %description
 ROSA Alternative GTK+ style for Qt
