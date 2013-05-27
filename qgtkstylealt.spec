@@ -6,9 +6,15 @@ Source0:	qgtkstylealt-%{version}.tar.gz
 Group:		Graphical desktop/KDE
 License:	GPLv3
 
+BuildRequires:  qt4-devel
+BuildRequires:	cmake
+BuildRequires:  pkgconfig(gtk+-2.0)
+BuildRequires:  kdebase4-devel 
+BuildRequires:	kdebase4-workspace-devel
 
-Requires:       kdebase4-runtime qt4-common %{_lib}gtk+2.0_0
-BuildRequires:  qt4-devel gtk2-devel kdebase4-devel kdebase4-workspace-devel
+Requires:       kdebase4-runtime
+Requires:		qt4-common 
+Requires:		gtk2-modules
 
 %description
 ROSA Alternative GTK+ style for Qt
